@@ -12,6 +12,16 @@ import algorithm.Djikstra;
 import algorithm.GCD;
 import algorithm.HeightofTree;
 import algorithm.LevelOrderTransversal;
+import algorithm.MoviesOnFlight;
+import algorithm.NearestCity;
+import algorithm.OptimizeMemoryUsage;
+import algorithm.UtilizationChecks;
+import algorithm.cloudfrontCaching;
+import algorithm.criticalConnections;
+import algorithm.fizzBuzz;
+import algorithm.robotCycleMove;
+import algorithm.throttlingGateway;
+import algorithm.zombieMatrix;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -35,6 +45,16 @@ public class LearnCode {
         System.out.println("5. Balance brackets ( https://www.hackerrank.com/challenges/balanced-brackets )");
         System.out.println("6. Cell compete scenario 8 puzzle ");
         System.out.println("7. GCD scenario ");
+        System.out.println("8. Movies on Flight ( https://aonecode.com/amazon-online-assessment-utilization-checks )");
+        System.out.println("9. fizzBuzz ( https://www.hackerrank.com/test/681nbpt0q5b/questions/521e954e6ff11 ) ");
+        System.out.println("10. utilizationChecks ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
+        System.out.println("11. optimizeMemoryUsage ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
+        System.out.println("12. criticalConnections ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
+        System.out.println("13. nearestCity ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
+        System.out.println("14. throttlingGateway ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
+        System.out.println("15. zombieMatrix ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
+        System.out.println("16. cloudfronCaching ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
+        System.out.println("17. robotBoundedInCycle ( https://leetcode.com/problems/robot-bounded-in-circle ) ");
         System.out.print("Enter command : ");
         Scanner scanner = new Scanner(System.in);
 
@@ -60,6 +80,36 @@ public class LearnCode {
                 break;
             case 7:
                 GCD.runningModule();
+                break;
+            case 8:
+                MoviesOnFlight.runningModule();
+                break;
+            case 9:
+                fizzBuzz.runningModule();
+                break;
+            case 10:
+                UtilizationChecks.runningModule();
+                break;
+            case 11:
+                OptimizeMemoryUsage.runningModule();
+                break;
+            case 12:
+                criticalConnections.runningModule();
+                break;
+            case 13:
+                NearestCity.runningModule();
+                break;
+            case 14:
+                throttlingGateway.runningModule();
+                break;
+            case 15:
+                zombieMatrix.runningModule();
+                break;
+            case 16:
+                cloudfrontCaching.runningModule();
+                break;
+            case 17:
+                robotCycleMove.runningModule();
                 break;
             default:
                 System.out.println("Wrong command");
