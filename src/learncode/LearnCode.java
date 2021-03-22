@@ -53,7 +53,7 @@ public class LearnCode {
         System.out.println("13. nearestCity ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
         System.out.println("14. throttlingGateway ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
         System.out.println("15. zombieMatrix ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
-        System.out.println("16. cloudfronCaching ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
+        System.out.println("16. cloudfrontCaching ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
         System.out.println("17. robotBoundedInCycle ( https://leetcode.com/problems/robot-bounded-in-circle ) ");
         System.out.print("Enter command : ");
         Scanner scanner = new Scanner(System.in);
