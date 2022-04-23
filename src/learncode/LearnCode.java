@@ -12,6 +12,7 @@ import algorithm.Djikstra;
 import algorithm.GCD;
 import algorithm.HeightofTree;
 import algorithm.LevelOrderTransversal;
+import algorithm.MissingInteger;
 import algorithm.MoviesOnFlight;
 import algorithm.NearestCity;
 import algorithm.OptimizeMemoryUsage;
@@ -55,6 +56,7 @@ public class LearnCode {
         System.out.println("15. zombieMatrix ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
         System.out.println("16. cloudfrontCaching ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
         System.out.println("17. robotBoundedInCycle ( https://leetcode.com/problems/robot-bounded-in-circle ) ");
+        System.out.println("18. MissingParameter ( https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/ ) ");
         System.out.print("Enter command : ");
         Scanner scanner = new Scanner(System.in);
 
@@ -110,6 +112,9 @@ public class LearnCode {
                 break;
             case 17:
                 robotCycleMove.runningModule();
+                break;
+            case 18:
+                MissingInteger.runningModule();
                 break;
             default:
                 System.out.println("Wrong command");
