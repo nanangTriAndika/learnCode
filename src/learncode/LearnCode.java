@@ -8,10 +8,12 @@ package learncode;
 import algorithm.BFS;
 import algorithm.BalanceBrackets;
 import algorithm.CellCompete;
+import algorithm.CropWordbyLimit;
 import algorithm.Djikstra;
 import algorithm.GCD;
 import algorithm.HeightofTree;
 import algorithm.LevelOrderTransversal;
+import algorithm.MinimumNumberofCars;
 import algorithm.MissingInteger;
 import algorithm.MoviesOnFlight;
 import algorithm.NearestCity;
@@ -57,6 +59,8 @@ public class LearnCode {
         System.out.println("16. cloudfrontCaching ( https://aonecode.com/amazon-online-assessment-utilization-checks ) ");
         System.out.println("17. robotBoundedInCycle ( https://leetcode.com/problems/robot-bounded-in-circle ) ");
         System.out.println("18. MissingParameter ( https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/ ) ");
+        System.out.println("19. ( https://www.chegg.com/homework-help/questions-and-answers/group-friends-going-holiday-together-come-meeting-point-start-journey-using-n-cars-p-k-peo-q90988854 ) ");
+        System.out.println("20. ( https://www.chegg.com/homework-help/questions-and-answers/code-correctness-performance-90--use-java-python-programming-language-q51467830 ) ");
         System.out.print("Enter command : ");
         Scanner scanner = new Scanner(System.in);
 
@@ -115,6 +119,12 @@ public class LearnCode {
                 break;
             case 18:
                 MissingInteger.runningModule();
+                break;
+            case 19:
+                MinimumNumberofCars.runningModule();
+                break;
+            case 20:
+                CropWordbyLimit.runningModule();
                 break;
             default:
                 System.out.println("Wrong command");
