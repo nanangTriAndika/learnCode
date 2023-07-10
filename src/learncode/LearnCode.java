@@ -9,6 +9,7 @@ import algorithm.BFS;
 import algorithm.BalanceBrackets;
 import algorithm.CellCompete;
 import algorithm.CropWordbyLimit;
+import algorithm.DiagonalDifference;
 import algorithm.Djikstra;
 import algorithm.GCD;
 import algorithm.HeightofTree;
@@ -61,6 +62,8 @@ public class LearnCode {
         System.out.println("18. MissingParameter ( https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/ ) ");
         System.out.println("19. ( https://www.chegg.com/homework-help/questions-and-answers/group-friends-going-holiday-together-come-meeting-point-start-journey-using-n-cars-p-k-peo-q90988854 ) ");
         System.out.println("20. ( https://www.chegg.com/homework-help/questions-and-answers/code-correctness-performance-90--use-java-python-programming-language-q51467830 ) ");
+        System.out.println("21. Diagonal Difference ( https://www.hackerrank.com/challenges/diagonal-difference/problem ) ");
+
         System.out.print("Enter command : ");
         Scanner scanner = new Scanner(System.in);
 
@@ -125,6 +128,9 @@ public class LearnCode {
                 break;
             case 20:
                 CropWordbyLimit.runningModule();
+                break;
+            case 21:
+                DiagonalDifference.runningModule();
                 break;
             default:
                 System.out.println("Wrong command");
